@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<title>Register User</title>
+<style>
+    .forms{
+        padding: 5%;
+    }
+    .header {
+        text-align: center;
+    }
+    .textBelowHeader {
+        text-align: center;
+        padding-top: 0.5%;
+    }
+</style>
+</head>
+<body>
+<h1 class = "header">Welcome</h1>
+<h4 class = "textBelowHeader">Enter Your Login Credentials</h4>
+    <form class="forms" method="post" action="Register">
+        <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" name="userEmail" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" name="userName" aria-describedby="emailHelp" placeholder="Name">
+        </div>
+        <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" name ="userPass" placeholder="Password">
+        </div>
+        <center><button type="submit" class="btn btn-primary" value="Register">Submit and Proceed</button></center>
+    </form>
+</body>
+</html>
