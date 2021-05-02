@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<title>Supplier Details</title>
+<style>
+    .forms{
+        padding: 5%;
+    }
+    .header {
+        text-align: center;
+    }
+    .textBelowHeader {
+        text-align: center;
+        padding-top: 0.5%;
+    }
+</style>
+</head>
+<body>
+	<form class="forms" method="post" action="SupplierDetails">
+        <div class="form-group">
+        <label for="exampleInputEmail1">Supplier Id</label>
+        <input type="text" class="form-control" id="supplierId" name="supplierID" aria-describedby="emailHelp" placeholder="Enter Supplier Id">
+        </div>
+        <div class="form-group">
+        <label for="exampleInputPassword1">WhatFruit</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" name ="whatFruit" placeholder="Enter the Fruit Type">
+        </div>
+        <center><button type="submit" class="btn btn-primary" >Submit and Proceed</button></center>
+    </form>	
+</body>
+</html>
